@@ -6,6 +6,10 @@
 //     height: 100%;
 //     padding-bottom: 4em;
 //   }
+.spacer-home {
+  height: 15em;
+  background: #555;
+}
 .clear-layer {
   height: 22.7em;
     width: 100%;
@@ -15,9 +19,18 @@
     z-index: 5;
 }
 
+.poke-p {
+  position: absolute;
+    top: 5.5em;
+    left: 39%;
+    color: white;
+    font-size: 4em;
+}
+
 .player-wrapper {
   position: relative;
-  padding-top: 28.25% /* Player ratio: 100 / (1280 / 720) */
+  padding-top: 28.25%; /* Player ratio: 100 / (1280 / 720) */
+  z-index: 3;
 }
 
 .titleHome {

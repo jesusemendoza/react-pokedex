@@ -25,18 +25,16 @@ render() {
 			<div className='nav-bar'>
 				<div className="navWide">
 					<div className="wideDiv">
-						<a className="nav-logo-link" href="/"></a>
-						<a className="nav-link" href="/">Home</a>
-						<a className="nav-link" href="/about">About</a>
-						<a className="nav-link" href="/partners">Partners</a>
+						<a className="nav-logo-link" href="/home"></a>
+						<a className="nav-link" href="/home">Home</a>
+						<a className="nav-link" href="/pokedex">Pokedex</a>
 					</div>
 				</div>
 				<div className="navNarrow">
 					<i className="fa fa-bars fa-2x" onClick={this.burgerToggle}></i>
 					<div className="narrowLinks">
-						<a href="/" onClick={this.burgerToggle}>Home</a>
-						<a href="/about" onClick={this.burgerToggle}>About</a>
-						<a href="/partners" onClick={this.burgerToggle}>Partners</a>
+						<a href="/home" onClick={this.burgerToggle}>Home</a>
+						<a href="/pokedex" onClick={this.burgerToggle}>Pokedex</a>
 					</div>
 				</div>
 			</div>
