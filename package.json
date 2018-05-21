@@ -4,7 +4,7 @@
   "description": "A pokedex built with react",
   "main": "./src/index.html",
   "scripts": {
-    "start": "parcel src/index.html",
+    "start": "node index.js",
     "postinstall": "parcel build src/index.html -d src/build/ -o index.html",
     "build": "parcel build src/index.html -d src/build/ -o index.html",
     "watch": "parcel src/index.html --log-level 3"
