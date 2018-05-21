@@ -1,0 +1,42 @@
+{
+  "name": "react-pokedex",
+  "version": "1.0.0",
+  "description": "A pokedex built with react",
+  "main": "./src/index.html",
+  "scripts": {
+    "build": "parcel build src/index.html -d src/build/ -o index.html",
+    "watch": "parcel src/index.html --log-level 3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jesusemendoza/react-pokedex.git"
+  },
+  "author": "Jesus Mendoza",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jesusemendoza/react-pokedex/issues"
+  },
+  "homepage": "https://github.com/jesusemendoza/react-pokedex#readme",
+  "dependencies": {
+    "@blueprintjs/core": "^2.3.1",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "dotenv": "^5.0.1",
+    "igdb-api-node": "^3.1.4",
+    "install": "^0.11.0",
+    "npm": "^6.0.1",
+    "parcel-bundler": "^1.8.1",
+    "prop-types": "^15.6.1",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2",
+    "react-parallax": "^1.7.0",
+    "react-player": "^1.6.1",
+    "react-router": "^4.2.0",
+    "react-router-dom": "^4.2.2",
+    "react-transition-group": "^2.3.1",
+    "video-react": "^0.10.5"
+  },
+  "devDependencies": {
+    "node-sass": "^4.9.0"
+  }
+}

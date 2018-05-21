@@ -1,0 +1,61 @@
+footer {
+	background-color: rgba(58, 56, 56, 0.453);
+	overflow: hidden;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	z-index: 10;
+	height: 5em;
+	display: inline-block;
+
+
+	a {
+        color: #FFF;
+        
+        
+	}
+
+	a:visited {
+		color: #FFF;
+	}
+
+	border-bottom: 1px solid #000;
+
+	.footWide {
+       
+		display: inline;
+		// .nav-logo-link {
+		// 	background-image: url("../../assets/logo-mini.png");
+    	// 	background-size: cover;
+		// 	height: 0.3em;
+		// 	float: left;
+		// 	padding:1em 1.2em;
+        // }
+        .twitter {
+            background-image: url("../../assets/twitter.png");
+            background-size: cover;
+        }
+        .facebook {
+        background-image: url("../../assets/facebook.png");
+        background-size: cover;
+        }   
+        .instagram {
+            background-image: url("../../assets/instagram.png");
+            background-size: cover;
+            }   
+
+		.wideDiv {
+			padding-top: 0.5em;
+			text-align: center;
+
+            .social-link {
+                // the size of the icon;
+				font-size: 0.2em;
+				display: inline-block;
+				width: 2em;
+				height: 2em;
+			}
+		}
+	}
+}
+
