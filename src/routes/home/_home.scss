@@ -9,7 +9,7 @@
 .clear-layer {
   height: 22.7em;
     width: 100%;
-    position: fixed;
+    position: absolute;
     top: 0;
     background-color: rgba(plum, 0.2); 
     z-index: 5;
@@ -17,7 +17,7 @@
 
 .player-wrapper {
   position: relative;
-  padding-top: 56.25% /* Player ratio: 100 / (1280 / 720) */
+  padding-top: 28.25% /* Player ratio: 100 / (1280 / 720) */
 }
 
 .titleHome {
@@ -26,7 +26,7 @@
   left: 40%;
   top: 6%;
   width: 4em;
-  position: fixed;
+  position: absolute;
   font-size: 4em;
   opacity: 0.8;
 }

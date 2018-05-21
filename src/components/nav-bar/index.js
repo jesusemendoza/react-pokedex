@@ -22,7 +22,7 @@ render() {
 
 
 		return (
-			<nav>
+			<div className='nav-bar'>
 				<div className="navWide">
 					<div className="wideDiv">
 						<a className="nav-logo-link" href="/"></a>
@@ -39,7 +39,7 @@ render() {
 						<a href="/partners" onClick={this.burgerToggle}>Partners</a>
 					</div>
 				</div>
-			</nav>
+			</div>
 		);
 	}
 };

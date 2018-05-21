@@ -2,6 +2,8 @@ import React from 'react';
 import './_home.scss';
 import Logo from '../../assets/gm.png';
 import ThreeAcross from '../../components/three-across'
+import NavBar from '../../components/nav-bar'
+
 
 // import { Parallax, Background } from 'react-parallax';
 import YouTubePlayer from 'react-player/lib/players/YouTube';
@@ -9,6 +11,8 @@ import YouTubePlayer from 'react-player/lib/players/YouTube';
 export default class Home extends React.Component {
     render() {
       return(
+	<div className='landing-container'>
+		<NavBar />
         <div className="player-wrapper">
 			<YouTubePlayer
 			className='react-player'
@@ -24,9 +28,7 @@ export default class Home extends React.Component {
 			/>
 		<div className="clear-layer">
 		<img className='titleHome' src={Logo}/>
-		<div className='spacer-home' />
 		
-		<ThreeAcross />
 
 		{/* <h1 className='titleHome'>
 			GAMACY
@@ -35,6 +37,10 @@ export default class Home extends React.Component {
 		</div>	
 
         </div>
+		<div className='spacer-home' />
+		<ThreeAcross />
+	</div>
+	
       );
     }
   }

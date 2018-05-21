@@ -9,7 +9,7 @@ import './_three-across.scss';
 export default class ThreeAcross extends React.Component {
     render() {
       return(
-       <section className="container-three-across">   
+       <div className="container-three-across">   
         <div className="narrow">
           <p className='infoheading'>Teams</p>
           <div className='box'>
@@ -47,7 +47,7 @@ export default class ThreeAcross extends React.Component {
         </div>
 
         
-        </section>
+        </div>
       );
     }
   }

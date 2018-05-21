@@ -1,4 +1,4 @@
-nav {
+.nav-bar {
 	background-color: rgba(58, 56, 56, 0.453);
 	overflow: hidden;
 	position: fixed;
@@ -23,7 +23,7 @@ nav {
 		padding-left: 5em;
 
 		.nav-logo-link {
-			background-image: url("../../assets/logo-mini.png");
+			background-image: url("../../assets/pokeball.png");
     		background-size: cover;
 			height: 0.3em;
 			float: left;
@@ -85,7 +85,7 @@ nav {
 // replaced by just the links.
 @media (min-width: 525px) {
 	
-	nav {
+	.nav-bar {
 
 		.navWide {
 			display: block;

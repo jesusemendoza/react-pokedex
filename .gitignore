@@ -59,3 +59,12 @@ typings/
 
 # next.js build output
 .next
+
+# parcel cache files
+.cache/
+
+# parcel watch files
+dist/
+
+# parcel build files
+src/build
