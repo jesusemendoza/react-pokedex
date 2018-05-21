@@ -24,6 +24,8 @@ export default class Home extends React.Component {
 			/>
 		<div className="clear-layer">
 		<img className='titleHome' src={Logo}/>
+		<div className='spacer-home' />
+		
 		<ThreeAcross />
 
 		{/* <h1 className='titleHome'>

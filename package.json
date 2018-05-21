@@ -4,6 +4,8 @@
   "description": "A pokedex built with react",
   "main": "./src/index.html",
   "scripts": {
+    "start": "parcel src/index.html",
+    "postinstall": "parcel build src/index.html -d src/build/ -o index.html",
     "build": "parcel build src/index.html -d src/build/ -o index.html",
     "watch": "parcel src/index.html --log-level 3"
   },
@@ -22,6 +24,7 @@
     "babel-preset-env": "^1.7.0",
     "babel-preset-react": "^6.24.1",
     "dotenv": "^5.0.1",
+    "express": "^4.16.3",
     "igdb-api-node": "^3.1.4",
     "install": "^0.11.0",
     "npm": "^6.0.1",
